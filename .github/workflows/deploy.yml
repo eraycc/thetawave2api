@@ -32,7 +32,7 @@ jobs:
         run: "deno install -gArf jsr:@deno/deployctl"
 
       - name: Build step
-        run: "deployctl deploy --project=theai --prod main.ts"
+        run: "deployctl deploy --project=thetai --prod main.ts"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
